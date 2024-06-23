@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="notebook-container">
+        <header>
+            <img src="header-image.jpg" alt="Header Image" class="header-image">
+            <h1>Interactive To-Do List</h1>
+        </header>
+        <div class="form-container">
+            <input type="text" id="task-input" placeholder="Enter task">
+            <select id="priority-input">
+                <option value="" disabled selected>Priority</option>
+                <option value="Low">Low Priority</option>
+                <option value="Medium">Medium Priority</option>
+                <option value="High">High Priority</option>
+            </select>
+            <input type="text" id="category-input" placeholder="Enter category">
+            <input type="date" id="due-date-input">
+            <button id="add-task-btn">Add Task</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <div id="congrats-character">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmh0MXRqZWU4Y2x1NjNpZTA5bXA0N3Y0NjlqZ3ozbnhkdXBnZW9hciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5EA2TSsP4arxFEKZ1u/giphy.webp" alt="Congrats Character">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
